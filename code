@@ -1,0 +1,21 @@
+Force=int(input("enter force on beam:"))
+Length=int(input("enter length of beam:"))
+stress=Force/Length
+print(stress,"is the stress")
+
+Elasticity=int(input("enter the elasticity:"))
+strain=stress/Elasticity
+print(strain,"is the strain")
+
+length=int(input("enter the length of rectangle:"))
+width=int(input("enter the width of rectangle:"))
+area_R=length*width
+print(area_R,"is the area of rectangle")
+
+radius=int(input("enter the radius of circle:"))
+area_C=3.14*radius
+print(area_C,"is the area of circle")
+
+lengthside=int(input("enter the length of square:"))
+area_A=lengthside*lengthside
+print(area_A,"is the area of square")
